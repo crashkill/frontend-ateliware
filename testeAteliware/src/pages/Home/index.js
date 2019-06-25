@@ -42,7 +42,7 @@ export default class Home extends Component {
   render() {
     return (
       <Container>
-        <img src={logo} alt="Comparador de Repositórios" />
+        <img src={logo} alt="Comparador de RepositóriosRepositórios" />
         <Form withError={this.state.repositoryErro} onSubmit={this.adicionaRepositorio}>
           <input
             type="text"
